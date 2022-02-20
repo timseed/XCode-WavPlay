@@ -16,6 +16,19 @@ But ... as I do my own support [grin] here goes.
 
 I eventually got a small framework done. This is the code you see at the moment.
 
+# Delegates
+
+I finally have a delegate working ... they appear to be just a different mechanism for doing Signals/Slots. Quite nice once you have a little luck getting them to work.
+
+
+It appears that the delegate **audioPlayerDidFinishPlaying** is only triggered when the file gets to the end (this is great)... and "Stop" method does not trigger the delegate. I hope that this means the code logic is simpler.
+
+
+#XVDR3 Functionality 
+
+I need to try and see what we are trying to replace in more detail.
+
+
 ## Limitations
 
 At the moment the filenames are hard coded. 
