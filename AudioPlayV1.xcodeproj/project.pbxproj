@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22C81EFE27C1DC5000847DFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C81EFD27C1DC5000847DFA /* AppDelegate.m */; };
+		22C81F0027C1DC5200847DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C81EFF27C1DC5200847DFA /* Assets.xcassets */; };
+		22C81F0327C1DC5200847DFA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22C81F0127C1DC5200847DFA /* MainMenu.xib */; };
+		22C81F0527C1DC5200847DFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C81F0427C1DC5200847DFA /* main.m */; };
+		22C81F1027C1DC5200847DFA /* AudioPlayV1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C81F0F27C1DC5200847DFA /* AudioPlayV1Tests.m */; };
+		22C81F1A27C1DC5200847DFA /* AudioPlayV1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C81F1927C1DC5200847DFA /* AudioPlayV1UITests.m */; };
+		22C81F1C27C1DC5200847DFA /* AudioPlayV1UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C81F1B27C1DC5200847DFA /* AudioPlayV1UITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22C81F0C27C1DC5200847DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C81EF127C1DC5000847DFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C81EF827C1DC5000847DFA;
+			remoteInfo = AudioPlayV1;
+		};
+		22C81F1627C1DC5200847DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C81EF127C1DC5000847DFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C81EF827C1DC5000847DFA;
+			remoteInfo = AudioPlayV1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22C81EF927C1DC5000847DFA /* AudioPlayV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C81EFC27C1DC5000847DFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22C81EFD27C1DC5000847DFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22C81EFF27C1DC5200847DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22C81F0227C1DC5200847DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		22C81F0427C1DC5200847DFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22C81F0627C1DC5200847DFA /* AudioPlayV1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AudioPlayV1.entitlements; sourceTree = "<group>"; };
+		22C81F0B27C1DC5200847DFA /* AudioPlayV1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPlayV1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C81F0F27C1DC5200847DFA /* AudioPlayV1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayV1Tests.m; sourceTree = "<group>"; };
+		22C81F1527C1DC5200847DFA /* AudioPlayV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPlayV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C81F1927C1DC5200847DFA /* AudioPlayV1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayV1UITests.m; sourceTree = "<group>"; };
+		22C81F1B27C1DC5200847DFA /* AudioPlayV1UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayV1UITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C81EF627C1DC5000847DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C81F0827C1DC5200847DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C81F1227C1DC5200847DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C81EF027C1DC5000847DFA = {
+			isa = PBXGroup;
+			children = (
+				22C81EFB27C1DC5000847DFA /* AudioPlayV1 */,
+				22C81F0E27C1DC5200847DFA /* AudioPlayV1Tests */,
+				22C81F1827C1DC5200847DFA /* AudioPlayV1UITests */,
+				22C81EFA27C1DC5000847DFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22C81EFA27C1DC5000847DFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22C81EF927C1DC5000847DFA /* AudioPlayV1.app */,
+				22C81F0B27C1DC5200847DFA /* AudioPlayV1Tests.xctest */,
+				22C81F1527C1DC5200847DFA /* AudioPlayV1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22C81EFB27C1DC5000847DFA /* AudioPlayV1 */ = {
+			isa = PBXGroup;
+			children = (
+				22C81EFC27C1DC5000847DFA /* AppDelegate.h */,
+				22C81EFD27C1DC5000847DFA /* AppDelegate.m */,
+				22C81EFF27C1DC5200847DFA /* Assets.xcassets */,
+				22C81F0127C1DC5200847DFA /* MainMenu.xib */,
+				22C81F0427C1DC5200847DFA /* main.m */,
+				22C81F0627C1DC5200847DFA /* AudioPlayV1.entitlements */,
+			);
+			path = AudioPlayV1;
+			sourceTree = "<group>";
+		};
+		22C81F0E27C1DC5200847DFA /* AudioPlayV1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				22C81F0F27C1DC5200847DFA /* AudioPlayV1Tests.m */,
+			);
+			path = AudioPlayV1Tests;
+			sourceTree = "<group>";
+		};
+		22C81F1827C1DC5200847DFA /* AudioPlayV1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				22C81F1927C1DC5200847DFA /* AudioPlayV1UITests.m */,
+				22C81F1B27C1DC5200847DFA /* AudioPlayV1UITestsLaunchTests.m */,
+			);
+			path = AudioPlayV1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22C81EF827C1DC5000847DFA /* AudioPlayV1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C81F1F27C1DC5200847DFA /* Build configuration list for PBXNativeTarget "AudioPlayV1" */;
+			buildPhases = (
+				22C81EF527C1DC5000847DFA /* Sources */,
+				22C81EF627C1DC5000847DFA /* Frameworks */,
+				22C81EF727C1DC5000847DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioPlayV1;
+			productName = AudioPlayV1;
+			productReference = 22C81EF927C1DC5000847DFA /* AudioPlayV1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22C81F0A27C1DC5200847DFA /* AudioPlayV1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C81F2227C1DC5200847DFA /* Build configuration list for PBXNativeTarget "AudioPlayV1Tests" */;
+			buildPhases = (
+				22C81F0727C1DC5200847DFA /* Sources */,
+				22C81F0827C1DC5200847DFA /* Frameworks */,
+				22C81F0927C1DC5200847DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C81F0D27C1DC5200847DFA /* PBXTargetDependency */,
+			);
+			name = AudioPlayV1Tests;
+			productName = AudioPlayV1Tests;
+			productReference = 22C81F0B27C1DC5200847DFA /* AudioPlayV1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22C81F1427C1DC5200847DFA /* AudioPlayV1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C81F2527C1DC5200847DFA /* Build configuration list for PBXNativeTarget "AudioPlayV1UITests" */;
+			buildPhases = (
+				22C81F1127C1DC5200847DFA /* Sources */,
+				22C81F1227C1DC5200847DFA /* Frameworks */,
+				22C81F1327C1DC5200847DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C81F1727C1DC5200847DFA /* PBXTargetDependency */,
+			);
+			name = AudioPlayV1UITests;
+			productName = AudioPlayV1UITests;
+			productReference = 22C81F1527C1DC5200847DFA /* AudioPlayV1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22C81EF127C1DC5000847DFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					22C81EF827C1DC5000847DFA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					22C81F0A27C1DC5200847DFA = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 22C81EF827C1DC5000847DFA;
+					};
+					22C81F1427C1DC5200847DFA = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 22C81EF827C1DC5000847DFA;
+					};
+				};
+			};
+			buildConfigurationList = 22C81EF427C1DC5000847DFA /* Build configuration list for PBXProject "AudioPlayV1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22C81EF027C1DC5000847DFA;
+			productRefGroup = 22C81EFA27C1DC5000847DFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22C81EF827C1DC5000847DFA /* AudioPlayV1 */,
+				22C81F0A27C1DC5200847DFA /* AudioPlayV1Tests */,
+				22C81F1427C1DC5200847DFA /* AudioPlayV1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22C81EF727C1DC5000847DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C81F0027C1DC5200847DFA /* Assets.xcassets in Resources */,
+				22C81F0327C1DC5200847DFA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C81F0927C1DC5200847DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C81F1327C1DC5200847DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C81EF527C1DC5000847DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C81F0527C1DC5200847DFA /* main.m in Sources */,
+				22C81EFE27C1DC5000847DFA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C81F0727C1DC5200847DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C81F1027C1DC5200847DFA /* AudioPlayV1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C81F1127C1DC5200847DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C81F1C27C1DC5200847DFA /* AudioPlayV1UITestsLaunchTests.m in Sources */,
+				22C81F1A27C1DC5200847DFA /* AudioPlayV1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22C81F0D27C1DC5200847DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C81EF827C1DC5000847DFA /* AudioPlayV1 */;
+			targetProxy = 22C81F0C27C1DC5200847DFA /* PBXContainerItemProxy */;
+		};
+		22C81F1727C1DC5200847DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C81EF827C1DC5000847DFA /* AudioPlayV1 */;
+			targetProxy = 22C81F1627C1DC5200847DFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22C81F0127C1DC5200847DFA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C81F0227C1DC5200847DFA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22C81F1D27C1DC5200847DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		22C81F1E27C1DC5200847DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22C81F2027C1DC5200847DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AudioPlayV1/AudioPlayV1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6WSTY4A4W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dv3a.AudioPlayV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		22C81F2127C1DC5200847DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AudioPlayV1/AudioPlayV1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6WSTY4A4W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dv3a.AudioPlayV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		22C81F2327C1DC5200847DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6WSTY4A4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dv3a.AudioPlayV1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioPlayV1.app/Contents/MacOS/AudioPlayV1";
+			};
+			name = Debug;
+		};
+		22C81F2427C1DC5200847DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6WSTY4A4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dv3a.AudioPlayV1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioPlayV1.app/Contents/MacOS/AudioPlayV1";
+			};
+			name = Release;
+		};
+		22C81F2627C1DC5200847DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6WSTY4A4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dv3a.AudioPlayV1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = AudioPlayV1;
+			};
+			name = Debug;
+		};
+		22C81F2727C1DC5200847DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6WSTY4A4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dv3a.AudioPlayV1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = AudioPlayV1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22C81EF427C1DC5000847DFA /* Build configuration list for PBXProject "AudioPlayV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C81F1D27C1DC5200847DFA /* Debug */,
+				22C81F1E27C1DC5200847DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C81F1F27C1DC5200847DFA /* Build configuration list for PBXNativeTarget "AudioPlayV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C81F2027C1DC5200847DFA /* Debug */,
+				22C81F2127C1DC5200847DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C81F2227C1DC5200847DFA /* Build configuration list for PBXNativeTarget "AudioPlayV1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C81F2327C1DC5200847DFA /* Debug */,
+				22C81F2427C1DC5200847DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C81F2527C1DC5200847DFA /* Build configuration list for PBXNativeTarget "AudioPlayV1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C81F2627C1DC5200847DFA /* Debug */,
+				22C81F2727C1DC5200847DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22C81EF127C1DC5000847DFA /* Project object */;
+}
