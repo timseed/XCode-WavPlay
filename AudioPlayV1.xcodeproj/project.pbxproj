@@ -20,6 +20,7 @@
 		22C81F3927C1ED4E00847DFA /* MyCall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22C81F3427C1ED4E00847DFA /* MyCall.wav */; };
 		22C81F3A27C1ED4E00847DFA /* Voice Contest.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22C81F3527C1ED4E00847DFA /* Voice Contest.wav */; };
 		22C81F3B27C1ED4E00847DFA /* TY and QRZ.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22C81F3627C1ED4E00847DFA /* TY and QRZ.wav */; };
+		22C81F3E27C1FF7000847DFA /* HamWavPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C81F3D27C1FF7000847DFA /* HamWavPlay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		22C81F3427C1ED4E00847DFA /* MyCall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MyCall.wav; sourceTree = "<group>"; };
 		22C81F3527C1ED4E00847DFA /* Voice Contest.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Voice Contest.wav"; sourceTree = "<group>"; };
 		22C81F3627C1ED4E00847DFA /* TY and QRZ.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TY and QRZ.wav"; sourceTree = "<group>"; };
+		22C81F3C27C1FF7000847DFA /* HamWavPlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HamWavPlay.h; sourceTree = "<group>"; };
+		22C81F3D27C1FF7000847DFA /* HamWavPlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HamWavPlay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				22C81F0127C1DC5200847DFA /* MainMenu.xib */,
 				22C81F0427C1DC5200847DFA /* main.m */,
 				22C81F0627C1DC5200847DFA /* AudioPlayV1.entitlements */,
+				22C81F3C27C1FF7000847DFA /* HamWavPlay.h */,
+				22C81F3D27C1FF7000847DFA /* HamWavPlay.m */,
 			);
 			path = AudioPlayV1;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 			files = (
 				22C81F0527C1DC5200847DFA /* main.m in Sources */,
 				22C81EFE27C1DC5000847DFA /* AppDelegate.m in Sources */,
+				22C81F3E27C1FF7000847DFA /* HamWavPlay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

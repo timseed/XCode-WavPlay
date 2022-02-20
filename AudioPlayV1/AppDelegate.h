@@ -6,17 +6,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+#import "HamWavPlay.h"
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 {
-    AVAudioPlayer *audioPlayer;
-    NSString *soundFilePath ;
-    NSURL *soundFileURL;
-    int VolumeLevel;
+    HamWavPlay *hamplayer;
 }
 
-- (void) Cq;
-- (void) Qrz;
-- (void) MyCall;
 @end
 
