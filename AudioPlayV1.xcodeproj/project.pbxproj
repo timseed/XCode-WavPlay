@@ -21,6 +21,7 @@
 		22C81F3A27C1ED4E00847DFA /* Voice Contest.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22C81F3527C1ED4E00847DFA /* Voice Contest.wav */; };
 		22C81F3B27C1ED4E00847DFA /* TY and QRZ.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22C81F3627C1ED4E00847DFA /* TY and QRZ.wav */; };
 		22C81F3E27C1FF7000847DFA /* HamWavPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C81F3D27C1FF7000847DFA /* HamWavPlay.m */; };
+		22C81F4027C206C200847DFA /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 22C81F3F27C206C200847DFA /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		22C81F3627C1ED4E00847DFA /* TY and QRZ.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TY and QRZ.wav"; sourceTree = "<group>"; };
 		22C81F3C27C1FF7000847DFA /* HamWavPlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HamWavPlay.h; sourceTree = "<group>"; };
 		22C81F3D27C1FF7000847DFA /* HamWavPlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HamWavPlay.m; sourceTree = "<group>"; };
+		22C81F3F27C206C200847DFA /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		22C81EFB27C1DC5000847DFA /* AudioPlayV1 */ = {
 			isa = PBXGroup;
 			children = (
+				22C81F3F27C206C200847DFA /* Readme.md */,
 				22C81F2D27C1E92F00847DFA /* Audio */,
 				22C81EFC27C1DC5000847DFA /* AppDelegate.h */,
 				22C81EFD27C1DC5000847DFA /* AppDelegate.m */,
@@ -272,6 +275,7 @@
 				22C81F3A27C1ED4E00847DFA /* Voice Contest.wav in Resources */,
 				22C81F3827C1ED4E00847DFA /* Your Number.wav in Resources */,
 				22C81F3927C1ED4E00847DFA /* MyCall.wav in Resources */,
+				22C81F4027C206C200847DFA /* Readme.md in Resources */,
 				22C81F3B27C1ED4E00847DFA /* TY and QRZ.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

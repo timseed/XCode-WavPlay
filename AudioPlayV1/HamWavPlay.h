@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HamWavPlay : NSObject
+@interface HamWavPlay : NSObject<AVAudioPlayerDelegate>
 {
 AVAudioPlayer *audioPlayer;
 NSString *soundFilePath ;
@@ -23,6 +23,8 @@ int VolumeLevel;
 - (void) MyCall;
 - (NSURL *) LoadUrl: (NSString *)fname :(NSString *)ftype ;
 - (BOOL) PlayFile: (NSURL *)url_of_wav;
+// Slots or delegate callbacks in Apple Speak
+- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag;
 @end
 
 NS_ASSUME_NONNULL_END

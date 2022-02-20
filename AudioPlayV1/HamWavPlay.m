@@ -9,13 +9,14 @@
 
 @implementation HamWavPlay
 
-
 - (BOOL) PlayFile: (NSURL *)url_of_wav
 {
     NSError *error=nil;
     audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url_of_wav error:&error];
     if (!error)
     {
+        //audioPlayer.delegate = (id<AVAudioPlayerDelegate>)self;
+        audioPlayer.delegate = self;
         NSLog(@"Trying to play the file");
         audioPlayer.numberOfLoops = 1;
         [audioPlayer play];
@@ -83,6 +84,12 @@
     {
         [self PlayFile:af];
     }
+}
+
+// Callback from the Audio Object
+
+- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
+    NSLog(@"Audio File finished");
 }
 
 @end
