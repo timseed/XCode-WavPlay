@@ -8,7 +8,15 @@
 #import <Cocoa/Cocoa.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+{
+    AVAudioPlayer *audioPlayer;
+    NSString *soundFilePath ;
+    NSURL *soundFileURL;
+    int VolumeLevel;
+}
 
-
+- (void) Cq;
+- (void) Qrz;
+- (void) MyCall;
 @end
 

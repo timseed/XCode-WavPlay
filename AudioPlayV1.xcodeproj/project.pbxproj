@@ -14,6 +14,12 @@
 		22C81F1027C1DC5200847DFA /* AudioPlayV1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C81F0F27C1DC5200847DFA /* AudioPlayV1Tests.m */; };
 		22C81F1A27C1DC5200847DFA /* AudioPlayV1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C81F1927C1DC5200847DFA /* AudioPlayV1UITests.m */; };
 		22C81F1C27C1DC5200847DFA /* AudioPlayV1UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C81F1B27C1DC5200847DFA /* AudioPlayV1UITestsLaunchTests.m */; };
+		22C81F2A27C1DC6A00847DFA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C81F2927C1DC6A00847DFA /* AVFoundation.framework */; platformFilter = maccatalyst; };
+		22C81F3727C1ED4E00847DFA /* QRZ.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22C81F3227C1ED4E00847DFA /* QRZ.wav */; };
+		22C81F3827C1ED4E00847DFA /* Your Number.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22C81F3327C1ED4E00847DFA /* Your Number.wav */; };
+		22C81F3927C1ED4E00847DFA /* MyCall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22C81F3427C1ED4E00847DFA /* MyCall.wav */; };
+		22C81F3A27C1ED4E00847DFA /* Voice Contest.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22C81F3527C1ED4E00847DFA /* Voice Contest.wav */; };
+		22C81F3B27C1ED4E00847DFA /* TY and QRZ.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22C81F3627C1ED4E00847DFA /* TY and QRZ.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,12 @@
 		22C81F1527C1DC5200847DFA /* AudioPlayV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPlayV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C81F1927C1DC5200847DFA /* AudioPlayV1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayV1UITests.m; sourceTree = "<group>"; };
 		22C81F1B27C1DC5200847DFA /* AudioPlayV1UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayV1UITestsLaunchTests.m; sourceTree = "<group>"; };
+		22C81F2927C1DC6A00847DFA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		22C81F3227C1ED4E00847DFA /* QRZ.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = QRZ.wav; sourceTree = "<group>"; };
+		22C81F3327C1ED4E00847DFA /* Your Number.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Your Number.wav"; sourceTree = "<group>"; };
+		22C81F3427C1ED4E00847DFA /* MyCall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MyCall.wav; sourceTree = "<group>"; };
+		22C81F3527C1ED4E00847DFA /* Voice Contest.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Voice Contest.wav"; sourceTree = "<group>"; };
+		22C81F3627C1ED4E00847DFA /* TY and QRZ.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TY and QRZ.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C81F2A27C1DC6A00847DFA /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +93,7 @@
 				22C81F0E27C1DC5200847DFA /* AudioPlayV1Tests */,
 				22C81F1827C1DC5200847DFA /* AudioPlayV1UITests */,
 				22C81EFA27C1DC5000847DFA /* Products */,
+				22C81F2827C1DC6A00847DFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +110,7 @@
 		22C81EFB27C1DC5000847DFA /* AudioPlayV1 */ = {
 			isa = PBXGroup;
 			children = (
+				22C81F2D27C1E92F00847DFA /* Audio */,
 				22C81EFC27C1DC5000847DFA /* AppDelegate.h */,
 				22C81EFD27C1DC5000847DFA /* AppDelegate.m */,
 				22C81EFF27C1DC5200847DFA /* Assets.xcassets */,
@@ -121,6 +136,26 @@
 				22C81F1B27C1DC5200847DFA /* AudioPlayV1UITestsLaunchTests.m */,
 			);
 			path = AudioPlayV1UITests;
+			sourceTree = "<group>";
+		};
+		22C81F2827C1DC6A00847DFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22C81F2927C1DC6A00847DFA /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22C81F2D27C1E92F00847DFA /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				22C81F3427C1ED4E00847DFA /* MyCall.wav */,
+				22C81F3227C1ED4E00847DFA /* QRZ.wav */,
+				22C81F3627C1ED4E00847DFA /* TY and QRZ.wav */,
+				22C81F3527C1ED4E00847DFA /* Voice Contest.wav */,
+				22C81F3327C1ED4E00847DFA /* Your Number.wav */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,8 +261,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C81F3727C1ED4E00847DFA /* QRZ.wav in Resources */,
 				22C81F0027C1DC5200847DFA /* Assets.xcassets in Resources */,
 				22C81F0327C1DC5200847DFA /* MainMenu.xib in Resources */,
+				22C81F3A27C1ED4E00847DFA /* Voice Contest.wav in Resources */,
+				22C81F3827C1ED4E00847DFA /* Your Number.wav in Resources */,
+				22C81F3927C1ED4E00847DFA /* MyCall.wav in Resources */,
+				22C81F3B27C1ED4E00847DFA /* TY and QRZ.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
